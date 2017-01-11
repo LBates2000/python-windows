@@ -1,4 +1,4 @@
-# python-windows-container
+# python-windows
 Windows Nano Server container running python 3.6.0 and pip 9.0.1
 
 This was built by installing Python on a Windows 10 x64 machine and then copying the installation to the container and setting the python path. 
