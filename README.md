@@ -23,3 +23,12 @@ RUN \
 
 ENTRYPOINT ["C:\\Python\\python.exe"]
 ```
+
+Container is hosted on Docker Hub:
+
+https://hub.docker.com/r/lbates2000/python-windows/
+
+```
+docker pull lbates2000/python-windows
+```
+
