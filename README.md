@@ -7,7 +7,7 @@ You can run it interactively
 ```
 docker run -it python-windows c:\python35\python.exe
 ```
-or you can use it as a base for another container, as well as upgrade PIP and install additonal Python modules, by adding the approrpiate commands to the new container's Dockerfile.
+or you can use it as a base for another container, as well as upgrade PIP and install additonal Python modules, by adding the appropriate commands to the new container's Dockerfile.
 
 For example:
 ```
