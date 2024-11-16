@@ -5,13 +5,13 @@ This was built by installing Python on a Windows 10 x64 machine and then copying
 
 You can run it interactively
 ```
-docker run -it python-windows
+docker run -it lbates2000/python-windows
 ```
 or you can use it as a base for another container, as well as upgrade PIP and install additional Python modules, by adding the appropriate commands to the new container's Dockerfile.
 
 For example:
 ```
-FROM python-windows:latest
+FROM lbates2000/python-windows:latest
 
 ENV APP_DIR C:/apps
 ADD requirements.txt $APP_DIR/requirements.txt
